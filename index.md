@@ -1,5 +1,4 @@
-This is my LangChain learning blog.
-
+Building practical notes and experiments around LangChain, Generative AI, Ollama, RAG systems, and modern AI engineering workflows.
 ## Topics
 - LangChain
 - Ollama
