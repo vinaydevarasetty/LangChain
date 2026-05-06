@@ -1,3 +1,6 @@
 title: Vinay's LangChain Notes
 description: Learning LangChain and Generative AI
-theme: Chirpy Theme
+theme: minima
+
+minima:
+  skin: dark
