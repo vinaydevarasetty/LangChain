@@ -1,5 +1,3 @@
-# Welcome
-
 This is my LangChain learning blog.
 
 ## Topics
