@@ -1,6 +1,6 @@
 ---
-title: "What is LangChain?"
 date: 2026-05-06
+title: "What is LangChain?"
 categories: [LangChain, Generative AI]
 tags: [LangChain, LLM, RAG, AI Engineering]
 ---
