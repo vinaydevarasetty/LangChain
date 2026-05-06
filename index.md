@@ -1,6 +1,22 @@
-Building practical notes and experiments around LangChain, Generative AI, Ollama, RAG systems, and modern AI engineering workflows.
-## Topics
+---
+layout: home
+title: Home
+---
+
+# Vinay D
+
+Data & AI Engineer exploring practical AI engineering concepts through hands-on learning and experimentation.
+
+I write about:
+
 - LangChain
 - Ollama
-- RAG
+- Retrieval Augmented Generation (RAG)
 - Prompt Engineering
+- Generative AI
+- AI Workflows
+- Vector Databases
+
+---
+
+## Recent Posts
