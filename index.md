@@ -3,7 +3,7 @@ layout: home
 title: Home
 ---
 
-# Vinay D
+# Vinay Devarasetty
 
 Data & AI Engineer exploring practical AI engineering concepts through hands-on learning and experimentation.
 
