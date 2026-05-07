@@ -1,6 +1,6 @@
 ---
 title: "Learning LangChain with Local Models"
-date: 2026-06-07
+date: 2026-05-07
 categories: [LangChain, Ollama]
 tags: [LangChain, Ollama, Phi3, RAG, Local LLMs]
 ---
