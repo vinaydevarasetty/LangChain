@@ -4,7 +4,7 @@ date: 2026-05-07
 categories: [LangChain, Ollama]
 tags: [LangChain, Ollama, Phi3, RAG, Local LLMs]
 ---
-<img src="LangChain/assets/images/langchain-local-models.png" width="100%">
+<img src="/LangChain/assets/images/langchain-local-models.png" style="border-radius:10px;">
 
 When I first started experimenting with LangChain, one thing became clear very quickly.
 
