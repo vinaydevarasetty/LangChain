@@ -4,6 +4,7 @@ date: 2026-05-08
 categories: [LangChain, Ollama]
 tags: [LangChain, Ollama, Phi3, Python, Local LLMs]
 ---
+<img src="https://github.com/vinaydevarasetty/LangChain/blob/main/assets/images/interacting-with-local-model-in-lang-chain.png" style="border-radius:10px;">
 
 After setting up Ollama and running Phi-3 locally, the next step was understanding how to interact with the model using Python instead of the terminal.
 
