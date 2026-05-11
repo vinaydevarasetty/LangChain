@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "Day 3 - Understanding Prompt Templates in LangChain"
 date: 2026-05-12
