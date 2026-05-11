@@ -7,7 +7,6 @@ tags: [LangChain, Prompt Engineering, Ollama, Phi-3, Local LLMs]
 
 # Understanding Prompt Templates in LangChain
 
-<img src="https://github.com/vinaydevarasetty/LangChain/blob/main/assets/images/Understanding_Prompt_template.png" style="border-radius:10px;">
 
 After interacting with Phi-3 using LangChain in the previous step, we can observe that prompts weer hard coded.
 
