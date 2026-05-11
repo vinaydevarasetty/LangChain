@@ -7,9 +7,7 @@ tags: [LangChain, Prompt Engineering, Ollama, Phi-3, Local LLMs]
 
 # Day 3: Understanding Prompt Templates in LangChain
 
-After interacting with Phi-3 using LangChain in the previous step, one thing started becoming obvious very quickly.
-
-The prompts were getting hardcoded everywhere.
+After interacting with Phi-3 using LangChain in the previous step, we can observe that prompts weer hard coded.
 
 For example:
 
@@ -41,7 +39,7 @@ Instead of writing fixed prompts repeatedly, we can define a structure once and 
 
 That makes the application cleaner and much easier to scale later.
 
-The setup remains exactly the same as Day 2.
+The setup remains exactly the same as previous step.
 
 We still use:
 
@@ -49,7 +47,7 @@ We still use:
 * Phi-3
 * LangChain
 
-The only new concept introduced today is the Prompt Template.
+The only new concept that we will be using is the Prompt Template.
 
 ---
 
