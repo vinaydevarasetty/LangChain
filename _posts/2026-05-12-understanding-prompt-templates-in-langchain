@@ -1,0 +1,52 @@
+---
+layout: post
+title: "Day 3: Understanding Prompt Templates in LangChain"
+date: 2026-05-12
+categories: [AI, LangChain]
+---
+
+After interacting with **Phi-3** using LangChain in our previous step, one thing became obvious very quickly: **The prompts were getting hardcoded everywhere.**
+
+For example:
+```python
+response = model.invoke(
+    "Explain cloud computing in simple terms"
+)
+
+This works perfectly for small experiments, but the moment we want to build dynamic systems—like chatbots, Q&A systems, or document assistants—this approach becomes difficult to manage. We cannot keep rewriting prompts manually every single time.
+
+The Solution: Prompt Templates
+Prompt Templates allow us to create reusable prompts with placeholders that accept dynamic values. Instead of writing fixed strings, we define a structure once and reuse it with different inputs. This makes our application cleaner and much easier to scale.
+
+The Setup
+The environment remains the same as Day 2:
+
+Ollama running Phi-3 locally.
+
+LangChain for orchestration.
+
+Ensure Phi-3 is running:
+ollama run phi3
+
+Implementation: Our First Template
+Here is how we transition from hardcoded strings to a dynamic template:
+
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_community.chat_models import ChatOllama
+
+# Initialize the local model
+model = ChatOllama(model="phi3")
+
+# 1. Create a reusable prompt template with a {placeholder}
+prompt = ChatPromptTemplate.from_template(
+    "Explain {topic} in simple terms"
+)
+
+# 2. Fill the placeholder dynamically
+user_input = "cloud computing"
+formatted_prompt = prompt.invoke({"topic": user_input})
+
+# 3. Send the formatted prompt to the model
+response = model.invoke(formatted_prompt)
+
+print(response.content)
