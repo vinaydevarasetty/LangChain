@@ -1,5 +1,5 @@
 ---
-title: "Day 3 - Understanding Prompt Templates in LangChain"
+title: "Understanding Prompt Templates in LangChain"
 date: 2026-05-12
 categories: [LangChain, Ollama, Generative AI]
 tags: [LangChain, Prompt Engineering, Ollama, Phi-3, Local LLMs]
