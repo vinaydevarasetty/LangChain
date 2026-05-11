@@ -5,7 +5,7 @@ categories: [LangChain, Ollama, Generative AI]
 tags: [LangChain, Prompt Engineering, Ollama, Phi-3, Local LLMs]
 ---
 
-# Day 3: Understanding Prompt Templates in LangChain
+# Understanding Prompt Templates in LangChain
 
 After interacting with Phi-3 using LangChain in the previous step, we can observe that prompts weer hard coded.
 
