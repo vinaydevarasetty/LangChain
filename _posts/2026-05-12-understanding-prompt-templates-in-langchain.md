@@ -208,7 +208,7 @@ This also explains why prompt engineering becomes such an important part of LLM 
 The model output depends heavily on how clearly and consistently prompts are structured.
 
 
-#The next step is where things become even more interesting.
+# The next step is where things become even more interesting.
 
 Instead of manually passing:
 
